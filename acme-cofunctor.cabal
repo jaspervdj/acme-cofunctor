@@ -38,7 +38,7 @@ Description:
   'Cofunctor' instance.
 
 Library
-  Exposed-modules:  Data.Cofunctor
+  Exposed-modules:  Data.Cofunctor, Data.Cofunctor.Cocoyoneda
   default-language: Haskell98
   Ghc-options:      -Wall
   Hs-source-dirs:   src
