@@ -1,5 +1,5 @@
 Name:          acme-cofunctor
-Version:       0.1.0.0
+Version:       0.1.1.0
 Synopsis:      A Cofunctor is a structure from category theory dual to Functor
 License:       BSD3
 License-file:  LICENSE
@@ -37,11 +37,18 @@ Description:
   ubiquitous Haskell types (e.g. @[]@, 'Maybe', @((->) a)@ turn out to have a
   'Cofunctor' instance.
 
+Extra-source-files:
+  README.md
+  CHANGELOG.md
+
 Library
-  Exposed-modules:  Data.Cofunctor, Data.Cofunctor.Cocoyoneda
-  default-language: Haskell98
+  Default-language: Haskell98
   Ghc-options:      -Wall
   Hs-source-dirs:   src
+
+  Exposed-modules:
+    Data.Cofunctor,
+    Data.Cofunctor.Cocoyoneda
 
   Build-depends:
     base >= 4 && < 5
